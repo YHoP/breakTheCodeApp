@@ -20,6 +20,8 @@ public class NonProfitActivity extends AppCompatActivity {
         Typeface fontSparkly = Typeface.createFromAsset(getAssets(), "fonts/sparkly.ttf");
         nameLabel.setTypeface(fontSparkly);
 
+        // http://www.101apps.co.za/index.php/articles/using-custom-fonts-in-your-android-apps.html
+
     }
 
 }
