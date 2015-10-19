@@ -24,7 +24,7 @@
         android:id="@+id/nameLabel"
         android:layout_below="@+id/PartnerImage"
         android:layout_centerHorizontal="true"
-        android:textSize="16sp"
+        android:textSize="24sp"
         android:textColor="@android:color/black"
         />
 
