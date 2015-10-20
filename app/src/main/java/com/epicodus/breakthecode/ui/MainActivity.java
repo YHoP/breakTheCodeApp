@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, EnrollActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.animator.animation1, R.animator.animation2);
             }
         });
 
