@@ -6,13 +6,13 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context="com.epicodus.breakthecode.NonProfitActivity">
+                tools:context="com.epicodus.breakthecode.ui.NonProfitActivity">
 
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/PartnerImage"
+        android:id="@+id/partnerImage"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/app_camp_for_girls"/>
@@ -20,9 +20,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App Camp for Girls"
+        android:text=""
         android:id="@+id/nameLabel"
-        android:layout_below="@+id/PartnerImage"
+        android:layout_below="@+id/partnerImage"
         android:layout_centerHorizontal="true"
         android:textSize="24sp"
         android:textColor="@android:color/black"
@@ -31,11 +31,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App Camp For Girls is a place where girls can put their creative powers to work, designing and building apps, while learning more about the business of software and being inspired by women mentors in the field.  "
-        android:id="@+id/textView3"
+        android:text=""
+        android:id="@+id/description"
         android:layout_below="@+id/nameLabel"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:textSize="16sp"
         android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Partner"
+        android:id="@+id/nextButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light"/>
 </RelativeLayout>
